@@ -7,6 +7,7 @@
 .titulo{
   text-align: center;
   font-size: 40px;
+  text-transform: capitalize;
 }
 
 header{
@@ -43,6 +44,7 @@ main{
 
 h2, h1{
   margin: 10px;
+
 }
 
 p{
@@ -61,6 +63,7 @@ section{
 img, figcaption{
   display: flex;
   flex-direction: column;
+  text-align: center;
   text-justify: auto;
   color: grey;
   width: 40vw;
@@ -76,4 +79,10 @@ footer{
 
 span{
   color: white;
+}
+
+#mapa{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
